@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--Color pallete Link:https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff-->
+    <color name="Purple">#513163</color>
+    <color name="Red">#B60808</color>
+    <color name="DarkRed">#600404</color>
+    <color name="Grey">#434343</color>
+    <color name="DarkGrey">#323232</color>
+    <color name="Orange">#ED7B23</color>
+
+</resources>
