@@ -15,6 +15,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.kotlincalculatorapp.ui.theme.KotlinCalculatorAppTheme
 
 class MainActivity : ComponentActivity() {
+    //private lateinit var bindingWorkingTV : ActivityMainBinding
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
