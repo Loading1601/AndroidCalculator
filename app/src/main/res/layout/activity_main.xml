@@ -12,7 +12,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:padding="20dp"
@@ -31,6 +31,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:textAlignment="textEnd"
             android:textSize="25sp"
+            android:textColor="@color/white"
             />
 
         <TextView
@@ -46,6 +47,7 @@
             app:layout_constraintRight_toRightOf="parent"
             android:textAlignment="textEnd"
             android:textSize="40sp"
+
             />
 
 
@@ -54,6 +56,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
     
     <LinearLayout
+        android:id="@+id/ButtonLayout"
         style="@style/buttonRow"
         >
 
@@ -77,7 +80,7 @@
             android:text="√"/>
         <Button
             style="@style/buttonOperator"
-            android:text="/"/>
+            android:text='/'/>
     </LinearLayout>
 
     <LinearLayout
@@ -95,7 +98,7 @@
             android:text="9"/>
         <Button
             style="@style/buttonOperator"
-            android:text="X"/>
+            android:text="x"/>
     </LinearLayout>
 
     <LinearLayout
@@ -113,7 +116,7 @@
             android:text="6"/>
         <Button
             style="@style/buttonOperator"
-            android:text="_"/>
+            android:text="-"/>
     </LinearLayout>
 
     <LinearLayout
